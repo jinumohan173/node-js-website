@@ -25,7 +25,9 @@ npm install nodemon -g
 
 nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
-nodemon does not require any additional changes to your code or method of development. nodemon is a replacement wrapper for node, to use nodemon replace the word node on the command line when executing your script.
+nodemon does not require any additional changes to your code or method of development. 
+nodemon is a replacement wrapper for node, to use nodemon replace the word node on the command 
+line when executing your script.
 
 
 Open a terminal and move to your directory where you want your code to reside and type
@@ -45,13 +47,17 @@ Now open your browser and tune to the following URL
 
 http://localhost:3000
 
-if you face a issue when running local host in port 3000, eg:-port already in use . 
+if you face a issue when running local host in port 3000,
+
+eg:-port already in use . 
 you can change the prot number to another one by editing www file in bin 
 to change the port listening issue in express nodemon u can
+
  easily change the port number in www file in bin for that 
 goto ur bin directory change the permission of www file ,
  
 open www file in editor change the port number in line 15 
+
 restart the local host with new port number
 
 Creating a simple website with Node.js, Express and EJS view engine
